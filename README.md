@@ -17,14 +17,14 @@ Transform your spatial memory systems with advanced semantic analysis, emotional
 
 ### From Git Repository
 ```bash
-pip install git+https://github.com/yourusername/spatial-valence-solution.git
+pip install git+https://github.com/SeanMurphy2k17/SpatialValienceToCoords.git
 ```
 
 ### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spatial-valence-solution.git
-cd spatial-valence-solution
+git clone https://github.com/SeanMurphy2k17/SpatialValienceToCoords.git
+cd SpatialValienceToCoords
 
 # Install in development mode
 pip install -e .
@@ -182,7 +182,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- Issues: [GitHub Issues](https://github.com/yourusername/spatial-valence-solution/issues)
+- Issues: [GitHub Issues](https://github.com/SeanMurphy2k17/SpatialValienceToCoords/issues)
 - Documentation: [docs/](docs/)
 - Examples: [examples/](examples/)
 

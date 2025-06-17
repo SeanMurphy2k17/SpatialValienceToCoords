@@ -16,7 +16,7 @@ setup(
     description="Enhanced spatial valence processor for AI consciousness systems",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/spatial-valence-solution",
+    url="https://github.com/SeanMurphy2k17/SpatialValienceToCoords",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
