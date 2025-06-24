@@ -11,9 +11,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="spatial-valence-solution",
-    version="1.0.0",
+    version="3.0.0",
     author="Sean",
-    description="Enhanced spatial valence processor for AI consciousness systems",
+    description="ULTRA-robust spatial valence processor with 6-layer semantic analysis (now default!)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/SeanMurphy2k17/SpatialValienceToCoords",
@@ -50,7 +50,12 @@ setup(
         "AI consciousness", 
         "natural language processing",
         "valence processing",
-        "spatial coordinates"
+        "spatial coordinates",
+        "word embeddings",
+        "semantic networks",
+        "ultra robust",
+        "aggressive capture",
+        "6-layer analysis"
     ],
     include_package_data=True,
     zip_safe=False,

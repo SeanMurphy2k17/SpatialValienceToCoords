@@ -1,51 +1,56 @@
 """
-Spatial Valence Solution - Enhanced semantic analysis for AI consciousness systems
+Spatial Valence Solution - ULTRA semantic analysis for AI consciousness systems
 
-This package provides advanced spatial valence processing capabilities with:
-- Multi-depth semantic analysis (FAST/STANDARD/DEEP)
+This package provides ULTRA-ROBUST spatial valence processing with:
+- 6-Layer semantic analysis (lexical, syntactic, semantic, contextual, embedding, relational)
+- Aggressive semantic capture that never misses relationships
+- Word embeddings and semantic networks
 - Emotional intelligence and confidence scoring
 - Temporal relationship detection
 - Universal deterministic consistency
 - 100% backward compatibility
 
 Example Usage:
-    from spatial_valence import EnhancedSpatialValenceToCoordGeneration, SemanticDepth
+    from spatial_valence import SpatialValenceToCoordGeneration
     
-    # Universal DEEP mode for maximum consistency
-    processor = EnhancedSpatialValenceToCoordGeneration(SemanticDepth.DEEP)
+    # Automatically uses ULTRA mode for maximum semantic capture!
+    processor = SpatialValenceToCoordGeneration()
     result = processor.process("I absolutely love this amazing AI system!")
     
     print(f"Confidence: {result['confidence']:.3f}")
-    print(f"Emotion: {result['enhanced_analysis']['emotion_score']:.3f}")
+    print(f"Emotion: {result['enhanced_analysis']['sentiment']['polarity']:.3f}")
 """
 
 # Import SemanticDepth first
 from .semantic_depth import SemanticDepth
 
-# Import processors (original first for compatibility)
-from .original_processor import SpatialValenceToCoordGeneration
-
-# Import enhanced processor (will use the SemanticDepth from above if needed)
-from .enhanced_processor import EnhancedSpatialValenceToCoordGeneration
+# Import ULTRA processor as the core implementation
+from .ultra_processor import UltraEnhancedSpatialValenceToCoordGeneration, UltraRobustSemanticEncoder
 
 # Import universal processor 
 from .universal_processor import UniversalSpatialProcessor
 
-__version__ = "1.0.0"
+# BACKWARD COMPATIBILITY: All old names now use ULTRA processor!
+SpatialValenceToCoordGeneration = UltraEnhancedSpatialValenceToCoordGeneration
+EnhancedSpatialValenceToCoordGeneration = UltraEnhancedSpatialValenceToCoordGeneration
+
+__version__ = "3.0.0"  # Major version bump for ULTRA-by-default
 __author__ = "Sean"
 __email__ = "your-email@example.com"
-__description__ = "Enhanced spatial valence processor for AI consciousness systems"
+__description__ = "ULTRA-robust spatial valence processor for AI consciousness systems"
 
 __all__ = [
-    "EnhancedSpatialValenceToCoordGeneration",
+    "SpatialValenceToCoordGeneration",  # Now ULTRA!
+    "EnhancedSpatialValenceToCoordGeneration",  # Now ULTRA!
+    "UltraEnhancedSpatialValenceToCoordGeneration",
+    "UltraRobustSemanticEncoder",
     "SemanticDepth",
-    "SpatialValenceToCoordGeneration", 
     "UniversalSpatialProcessor",
 ]
 
 # Version info
 VERSION_INFO = {
-    'major': 1,
+    'major': 3,
     'minor': 0,
     'patch': 0,
     'release': 'stable'
@@ -63,10 +68,13 @@ def get_info():
         'author': __author__,
         'description': __description__,
         'capabilities': [
-            'Multi-depth semantic processing',
+            'ULTRA mode with 6-layer analysis',
+            'Aggressive semantic capture',
+            'Word embeddings and semantic networks', 
             'Emotional intelligence',
             'Confidence scoring',
             'Temporal relationship detection',
-            'Universal DEEP mode consistency'
+            'Never misses semantic relationships',
+            'Advanced NLP techniques'
         ]
     } 
